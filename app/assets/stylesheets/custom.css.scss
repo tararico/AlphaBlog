@@ -1,5 +1,40 @@
-@import 'bootstrap/dist/css/bootstrap';
+@import "bootstrap/dist/css/bootstrap";
 
 .navbar {
-  background-color: #FDF6EA !important;
+  background-color: #128496 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: #e0ebe8;
+}
+
+.jumbotron {
+  background-image: asset-url("top_img.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #128496 !important;
 }
